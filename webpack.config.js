@@ -7,6 +7,9 @@ module.exports = {
     path: path.join(__dirname, '/dist'),
     filename: '[chunkhash].bundle.js'
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
+  },
   module: {
     rules: [
       {
@@ -23,8 +26,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        template: './public/index.html'
+      template: './public/index.html',
     }),
     // new (require('webpack-bundle-analyzer').BundleAnalyzerPlugin)({ analyzerMode: 'static' }),
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true,
+  }
 }
