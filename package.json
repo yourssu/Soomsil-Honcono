@@ -1,7 +1,18 @@
 {
   "name": "soomsil-honcono",
   "packageManager": "yarn@3.3.0",
+  "description": "Soomsil Honcono",
   "devDependencies": {
-    "typescript": "^4.9.4"
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
