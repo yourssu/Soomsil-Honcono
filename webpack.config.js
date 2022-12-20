@@ -13,6 +13,8 @@ module.exports = {
       "Pages": path.resolve(__dirname, 'src/pages/'),
       "Containers": path.resolve(__dirname, 'src/containers/'),
       "Components": path.resolve(__dirname, 'src/components/'),
+      "Apis": path.resolve(__dirname, 'src/apis/'),
+      "Types": path.resolve(__dirname, 'src/types/'),
     },
   },
   module: {

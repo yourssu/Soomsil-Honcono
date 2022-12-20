@@ -19,6 +19,9 @@
       "*": ["node_modules/*"],
       "Pages/*": ["src/pages/*"],
       "Containers/*": ["src/containers/*"],
+      "Apis": ["src/apis"],
+      "Types": ["src/types"],
+      "Components": ["src/components"],
     },
   },
   "include": [
