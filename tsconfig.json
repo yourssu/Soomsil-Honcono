@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "module": "CommonJS",
     "jsx": "react",
     "sourceMap": true,
     "strict": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -14,13 +15,11 @@
       "dom",
       "es2022",
     ],
-  },
-  "types": ["react", "jest"],
-  "paths": {
-    "*": [
-      "node_modules/*",
-    ],
-    "Containers/*": ["src/containers/*"],
+    "paths": {
+      "*": ["node_modules/*"],
+      "Pages/*": ["src/pages/*"],
+      "Containers/*": ["src/containers/*"],
+    },
   },
   "include": [
     "src/**/*"
