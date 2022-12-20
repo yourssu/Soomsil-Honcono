@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import styles from './Navigation.scss'
+
 function Navigation() {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ul>
         <li>
           <Link to="/">home</Link>

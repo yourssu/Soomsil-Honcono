@@ -1,0 +1,58 @@
+@import '../palette/light.scss';
+
+$bg-normal: $white-000;
+$bg-elevated: $white-000;
+$bg-recomment: $gray-050;
+$bg-pressed: $gray-900-a05;
+$bg-selected: $gray-900-a05;
+$bg-normal-dark: $real-black;
+$bg-elevated-dark: $real-black;
+$bg-dim-dark: $gray-900-a30;
+
+$text-primary: $black-000;
+$text-secondary: $gray-900;
+$text-tertiary: $gray-600;
+$text-disabled: $gray-500;
+$text-bright: $white-000;
+$text-pointed: $point-color-400;
+$text-warned: $warning-red-400;
+
+$dim-normal: $gray-900-a30;
+$dim-thick: $gray-900-a70;
+$dim-thick-bright: $white-000-a70;
+
+$border-thin: $gray-100;
+$border-normal: $black-000-a10;
+$border-thick: $gray-500;
+
+$button-normal: $gray-700;
+$button-normal-pressed: $gray-600;
+$button-bg: $gray-200;
+$button-emoji-bg: $gray-100;
+$button-bright: $white-000;
+$button-disabled: $gray-500;
+$button-disabled-bg: $gray-200;
+$button-point: $point-color-400;
+$button-point-pressed: $point-color-300;
+$button-point-bg: $point-color-050;
+$button-warned: $warning-red-400;
+$button-warned-pressed: $warning-red-300;
+$button-warned-bg: $warning-red-050;
+
+$bottom-bar-normal: $gray-600;
+$bottom-bar-selected: $gray-800;
+
+$input-field-normal: $white-000;
+$input-field-elevated: $gray-100;
+
+$toast-bg: $gray-800;
+
+$tooltip-bg: $gray-700;
+$tooltip-point: $point-color-400;
+
+$dim-picker-reverse: $white-000-a70;
+
+$pressed: $gray-900-a05;
+
+$shadow-thin: $gray-400;
+$shadow-normal: $gray-500;

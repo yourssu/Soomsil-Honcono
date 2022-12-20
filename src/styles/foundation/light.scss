@@ -1,0 +1,60 @@
+@import '../theme/light.scss';
+
+:root {
+  --bg-normal: #{$bg-normal};
+  --bg-elevated: #{$bg-elevated};
+  --bg-recomment: #{$bg-recomment};
+  --bg-pressed: #{$bg-pressed};
+  --bg-selected: #{$bg-selected};
+  --bg-normal-dark: #{$bg-normal-dark};
+  --bg-elevated-dark: #{$bg-elevated-dark};
+  --bg-dim-dark: #{$bg-dim-dark};
+  
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-tertiary: #{$text-tertiary};
+  --text-disabled: #{$text-disabled};
+  --text-bright: #{$text-bright};
+  --text-pointed: #{$text-pointed};
+  --text-warned: #{$text-warned};
+  
+  --dim-normal: #{$dim-normal};
+  --dim-thick: #{$dim-thick};
+  --dim-thick-bright: #{$dim-thick-bright};
+  
+  --border-thin: #{$border-thin};
+  --border-normal: #{$border-normal};
+  --border-thick: #{$border-thick};
+  
+  --button-normal: #{$button-normal};
+  --button-normal-pressed: #{$button-normal-pressed};
+  --button-bg: #{$button-bg};
+  --button-emoji-bg: #{$button-emoji-bg};
+  --button-bright: #{$button-bright};
+  --button-disabled: #{$button-disabled};
+  --button-disabled-bg: #{$button-disabled-bg};
+  --button-point: #{$button-point};
+  --button-point-pressed: #{$button-point-pressed};
+  --button-point-bg: #{$button-point-bg};
+  --button-warned: #{$button-warned};
+  --button-warned-pressed: #{$button-warned-pressed};
+  --button-warned-bg: #{$button-warned-bg};
+  
+  --bottom-bar-normal: #{$bottom-bar-normal};
+  --bottom-bar-selected: #{$bottom-bar-selected};
+  
+  --input-field-normal: #{$input-field-normal};
+  --input-field-elevated: #{$input-field-elevated};
+  
+  --toast-bg: #{$toast-bg};
+  
+  --tooltip-bg: #{$tooltip-bg};
+  --tooltip-point: #{$tooltip-point};
+  
+  --dim-picker-reverse: #{$dim-picker-reverse};
+  
+  --pressed: #{$pressed};
+  
+  --shadow-thin: #{$shadow-thin};
+  --shadow-normal: #{$shadow-normal};
+}

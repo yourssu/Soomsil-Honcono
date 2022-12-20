@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { QueryClient, QueryClientProvider } from 'react-query'
 
 import App from 'Containers/App'
+import './styles/styles.scss'
 
 const container = document.getElementById('app')
 const root = createRoot(container!)
