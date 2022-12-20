@@ -9,6 +9,11 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
+    alias: {
+      "Pages": path.resolve(__dirname, 'src/pages/'),
+      "Containers": path.resolve(__dirname, 'src/containers/'),
+      "Components": path.resolve(__dirname, 'src/components/'),
+    },
   },
   module: {
     rules: [
